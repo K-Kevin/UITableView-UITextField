@@ -1,0 +1,10 @@
+
+platform :ios, ‘8.0’
+
+target "CellTextFieldDemo" do
+
+pod 'PureLayout' ,'3.0.2'
+pod 'TPKeyboardAvoiding' ,'1.3'
+pod 'APNumberPad', '1.1.3'
+
+end

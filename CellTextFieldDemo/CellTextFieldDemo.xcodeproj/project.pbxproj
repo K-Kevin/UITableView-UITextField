@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD10BD18893902F7D14B909 /* libPods-CellTextFieldDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A34CD3715AEF105DF6530 /* libPods-CellTextFieldDemo.a */; };
+		A260537B1D68239E0044A83F /* tableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A260537A1D68239E0044A83F /* tableViewCell.m */; };
+		A260537F1D6839570044A83F /* ValidateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A260537E1D6839570044A83F /* ValidateUtil.m */; };
+		A26053821D6839640044A83F /* FormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A26053811D6839640044A83F /* FormatUtil.m */; };
+		A2B81ABE1D66E739008273BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B81ABD1D66E739008273BD /* main.m */; };
+		A2B81AC11D66E739008273BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B81AC01D66E739008273BD /* AppDelegate.m */; };
+		A2B81AC91D66E739008273BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B81AC81D66E739008273BD /* Assets.xcassets */; };
+		A2B81ACC1D66E739008273BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B81ACA1D66E739008273BD /* LaunchScreen.storyboard */; };
+		A2B81AD51D66E7A1008273BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B81AD41D66E7A1008273BD /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A425AC569DDA4D6BF5F9015 /* Pods-CellTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellTextFieldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellTextFieldDemo/Pods-CellTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		746AEC7B0372E91FC1B35E10 /* Pods-CellTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellTextFieldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellTextFieldDemo/Pods-CellTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		825A34CD3715AEF105DF6530 /* libPods-CellTextFieldDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellTextFieldDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26053791D68239E0044A83F /* tableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewCell.h; sourceTree = "<group>"; };
+		A260537A1D68239E0044A83F /* tableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewCell.m; sourceTree = "<group>"; };
+		A260537D1D6839570044A83F /* ValidateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateUtil.h; sourceTree = "<group>"; };
+		A260537E1D6839570044A83F /* ValidateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateUtil.m; sourceTree = "<group>"; };
+		A26053801D6839640044A83F /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
+		A26053811D6839640044A83F /* FormatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatUtil.m; sourceTree = "<group>"; };
+		A2B81AB91D66E739008273BD /* CellTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B81ABD1D66E739008273BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B81ABF1D66E739008273BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2B81AC01D66E739008273BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2B81AC81D66E739008273BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B81ACB1D66E739008273BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B81ACD1D66E739008273BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B81AD31D66E7A1008273BD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2B81AD41D66E7A1008273BD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B81AB61D66E739008273BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD10BD18893902F7D14B909 /* libPods-CellTextFieldDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		597AAADDA7CF769D8912BEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746AEC7B0372E91FC1B35E10 /* Pods-CellTextFieldDemo.debug.xcconfig */,
+				3A425AC569DDA4D6BF5F9015 /* Pods-CellTextFieldDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		901393576EB418963BDC98B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825A34CD3715AEF105DF6530 /* libPods-CellTextFieldDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A260537C1D6839400044A83F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A260537D1D6839570044A83F /* ValidateUtil.h */,
+				A260537E1D6839570044A83F /* ValidateUtil.m */,
+				A26053801D6839640044A83F /* FormatUtil.h */,
+				A26053811D6839640044A83F /* FormatUtil.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A2B81AB01D66E739008273BD = {
+			isa = PBXGroup;
+			children = (
+				A2B81ABB1D66E739008273BD /* CellTextFieldDemo */,
+				A2B81ABA1D66E739008273BD /* Products */,
+				597AAADDA7CF769D8912BEA4 /* Pods */,
+				901393576EB418963BDC98B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B81ABA1D66E739008273BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B81AB91D66E739008273BD /* CellTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B81ABB1D66E739008273BD /* CellTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2B81ABF1D66E739008273BD /* AppDelegate.h */,
+				A2B81AC01D66E739008273BD /* AppDelegate.m */,
+				A2B81AD31D66E7A1008273BD /* ViewController.h */,
+				A2B81AD41D66E7A1008273BD /* ViewController.m */,
+				A26053791D68239E0044A83F /* tableViewCell.h */,
+				A260537A1D68239E0044A83F /* tableViewCell.m */,
+				A260537C1D6839400044A83F /* Tools */,
+				A2B81ABC1D66E739008273BD /* Supporting Files */,
+			);
+			path = CellTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		A2B81ABC1D66E739008273BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B81AC81D66E739008273BD /* Assets.xcassets */,
+				A2B81ACA1D66E739008273BD /* LaunchScreen.storyboard */,
+				A2B81ACD1D66E739008273BD /* Info.plist */,
+				A2B81ABD1D66E739008273BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B81AB81D66E739008273BD /* CellTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B81AD01D66E739008273BD /* Build configuration list for PBXNativeTarget "CellTextFieldDemo" */;
+			buildPhases = (
+				78C3E0A35183BE12E3494A38 /* [CP] Check Pods Manifest.lock */,
+				A2B81AB51D66E739008273BD /* Sources */,
+				A2B81AB61D66E739008273BD /* Frameworks */,
+				A2B81AB71D66E739008273BD /* Resources */,
+				A6DCF891B6D881BF0C9759CA /* [CP] Embed Pods Frameworks */,
+				4783295CA0AE475C4BDE488D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellTextFieldDemo;
+			productName = CellTextFieldDemo;
+			productReference = A2B81AB91D66E739008273BD /* CellTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B81AB11D66E739008273BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kkk;
+				TargetAttributes = {
+					A2B81AB81D66E739008273BD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A2B81AB41D66E739008273BD /* Build configuration list for PBXProject "CellTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B81AB01D66E739008273BD;
+			productRefGroup = A2B81ABA1D66E739008273BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B81AB81D66E739008273BD /* CellTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B81AB71D66E739008273BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B81ACC1D66E739008273BD /* LaunchScreen.storyboard in Resources */,
+				A2B81AC91D66E739008273BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4783295CA0AE475C4BDE488D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellTextFieldDemo/Pods-CellTextFieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C3E0A35183BE12E3494A38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DCF891B6D881BF0C9759CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellTextFieldDemo/Pods-CellTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B81AB51D66E739008273BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B81AD51D66E7A1008273BD /* ViewController.m in Sources */,
+				A260537B1D68239E0044A83F /* tableViewCell.m in Sources */,
+				A26053821D6839640044A83F /* FormatUtil.m in Sources */,
+				A2B81AC11D66E739008273BD /* AppDelegate.m in Sources */,
+				A260537F1D6839570044A83F /* ValidateUtil.m in Sources */,
+				A2B81ABE1D66E739008273BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2B81ACA1D66E739008273BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B81ACB1D66E739008273BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B81ACE1D66E739008273BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B81ACF1D66E739008273BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B81AD11D66E739008273BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746AEC7B0372E91FC1B35E10 /* Pods-CellTextFieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CellTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.CellTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2B81AD21D66E739008273BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A425AC569DDA4D6BF5F9015 /* Pods-CellTextFieldDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CellTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.CellTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B81AB41D66E739008273BD /* Build configuration list for PBXProject "CellTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B81ACE1D66E739008273BD /* Debug */,
+				A2B81ACF1D66E739008273BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B81AD01D66E739008273BD /* Build configuration list for PBXNativeTarget "CellTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B81AD11D66E739008273BD /* Debug */,
+				A2B81AD21D66E739008273BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B81AB11D66E739008273BD /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - APNumberPad (1.1.3)
+  - PureLayout (3.0.2)
+  - TPKeyboardAvoiding (1.3)
+
+DEPENDENCIES:
+  - APNumberPad
+  - PureLayout (= 3.0.2)
+  - TPKeyboardAvoiding (= 1.3)
+
+SPEC CHECKSUMS:
+  APNumberPad: fb170244d10fd3946b6bf1d724af3c0bf209f0d9
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+
+PODFILE CHECKSUM: 8d819954b6493ad8f64af3d99cc7c434b279c3a7
+
+COCOAPODS: 1.0.1

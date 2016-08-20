@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>APNumberPad.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CellTextFieldDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D84268C45601739F2C973A1E09DF668</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>310E60DCD17EA60668379C4EF6B687D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90F10C7EBB74DCDFBEA5A9230F75B5A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E130E373D9F8110F636A07C63274509B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
